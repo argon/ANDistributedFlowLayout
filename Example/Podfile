@@ -1,10 +1,10 @@
-target "CenterFlow" do
-  pod 'KTCenterFlowLayout', :path => '..'
+target "DistributedFlow" do
+  pod 'ANDistributedFlowLayout', :path => '..'
   pod 'KTCategories', git: 'https://github.com/keighl/KTCategories.git'
 end
 
-target "CenterFlowTests" do
-  pod 'KTCenterFlowLayout', :path => '..'
+target "DistributedFlowTests" do
+  pod 'ANDistributedFlowLayout', :path => '..'
   pod 'KTCategories', git: 'https://github.com/keighl/KTCategories.git'
 end
 

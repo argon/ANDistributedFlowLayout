@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5351A7ABCC652379D5412043 /* libPods-CenterFlowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0FF2F233AC4708DDDF959F /* libPods-CenterFlowTests.a */; };
-		89C9C8C1CAA139E8C3F8DC27 /* libPods-CenterFlow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FE6FBDF1A7F0531B0558FC /* libPods-CenterFlow.a */; };
+		074BDC6802CD427470835015 /* libPods-DistributedFlowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0273ABF47BE7AD794692BA1 /* libPods-DistributedFlowTests.a */; };
+		B1CED71D0820049614FC50CD /* libPods-DistributedFlow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DC9A9C35DC4FAF4697ADD9 /* libPods-DistributedFlow.a */; };
 		CF0E9DA41AE914A300754C1D /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0E9DA31AE914A300754C1D /* Launch.storyboard */; };
 		CF2A543419E702E500BAFA7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2A543319E702E500BAFA7F /* main.m */; };
 		CF2A543719E702E500BAFA7F /* KTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2A543619E702E500BAFA7F /* KTAppDelegate.m */; };
 		CF2A543F19E702E500BAFA7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2A543E19E702E500BAFA7F /* Images.xcassets */; };
-		CF2A544E19E702E500BAFA7F /* CenterFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2A544D19E702E500BAFA7F /* CenterFlowTests.m */; };
+		CF2A544E19E702E500BAFA7F /* DistributedFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2A544D19E702E500BAFA7F /* DistributedFlowTests.m */; };
 		CF2A545919E704C700BAFA7F /* KTMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2A545819E704C700BAFA7F /* KTMainController.m */; };
 		CF2A545C19E7061300BAFA7F /* KTAwesomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2A545B19E7061300BAFA7F /* KTAwesomeCell.m */; };
 		CF2A545E19E7084100BAFA7F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2A545D19E7084100BAFA7F /* Default-568h@2x.png */; };
@@ -25,27 +25,27 @@
 			containerPortal = CF2A542619E702E500BAFA7F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF2A542D19E702E500BAFA7F;
-			remoteInfo = CenterFlow;
+			remoteInfo = DistributedFlow;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19FE6FBDF1A7F0531B0558FC /* libPods-CenterFlow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CenterFlow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ECF6DD851140C95357BED1E /* Pods-CenterFlowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenterFlowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CenterFlowTests/Pods-CenterFlowTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4AFEF64C7155472DB962BE48 /* Pods-CenterFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenterFlow.release.xcconfig"; path = "Pods/Target Support Files/Pods-CenterFlow/Pods-CenterFlow.release.xcconfig"; sourceTree = "<group>"; };
-		53AAACBC5E8ACD76A2F4BF31 /* Pods-CenterFlowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenterFlowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CenterFlowTests/Pods-CenterFlowTests.release.xcconfig"; sourceTree = "<group>"; };
-		A75292300854AF4BFB32B96E /* Pods-CenterFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenterFlow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CenterFlow/Pods-CenterFlow.debug.xcconfig"; sourceTree = "<group>"; };
-		BA0FF2F233AC4708DDDF959F /* libPods-CenterFlowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CenterFlowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DF3DED88F2337DF6D86950 /* Pods-DistributedFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistributedFlow.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistributedFlow/Pods-DistributedFlow.release.xcconfig"; sourceTree = "<group>"; };
+		44E0DD07D49911D83507FC9B /* Pods-DistributedFlowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistributedFlowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistributedFlowTests/Pods-DistributedFlowTests.release.xcconfig"; sourceTree = "<group>"; };
+		55DC9A9C35DC4FAF4697ADD9 /* libPods-DistributedFlow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DistributedFlow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C228691155C2C17AD2CF0F /* Pods-DistributedFlowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistributedFlowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistributedFlowTests/Pods-DistributedFlowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0273ABF47BE7AD794692BA1 /* libPods-DistributedFlowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DistributedFlowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6278E8946B7034909E84449 /* Pods-DistributedFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistributedFlow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistributedFlow/Pods-DistributedFlow.debug.xcconfig"; sourceTree = "<group>"; };
 		CF0E9DA31AE914A300754C1D /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
-		CF2A542E19E702E500BAFA7F /* CenterFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenterFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2A542E19E702E500BAFA7F /* DistributedFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistributedFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2A543219E702E500BAFA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF2A543319E702E500BAFA7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF2A543519E702E500BAFA7F /* KTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTAppDelegate.h; sourceTree = "<group>"; };
 		CF2A543619E702E500BAFA7F /* KTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTAppDelegate.m; sourceTree = "<group>"; };
 		CF2A543E19E702E500BAFA7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CF2A544719E702E500BAFA7F /* CenterFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenterFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2A544719E702E500BAFA7F /* DistributedFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistributedFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2A544C19E702E500BAFA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF2A544D19E702E500BAFA7F /* CenterFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterFlowTests.m; sourceTree = "<group>"; };
+		CF2A544D19E702E500BAFA7F /* DistributedFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistributedFlowTests.m; sourceTree = "<group>"; };
 		CF2A545719E704C700BAFA7F /* KTMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMainController.h; sourceTree = "<group>"; };
 		CF2A545819E704C700BAFA7F /* KTMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMainController.m; sourceTree = "<group>"; };
 		CF2A545A19E7061300BAFA7F /* KTAwesomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTAwesomeCell.h; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89C9C8C1CAA139E8C3F8DC27 /* libPods-CenterFlow.a in Frameworks */,
+				B1CED71D0820049614FC50CD /* libPods-DistributedFlow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5351A7ABCC652379D5412043 /* libPods-CenterFlowTests.a in Frameworks */,
+				074BDC6802CD427470835015 /* libPods-DistributedFlowTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,19 +76,19 @@
 		0405686C57B14B068693DE2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				19FE6FBDF1A7F0531B0558FC /* libPods-CenterFlow.a */,
-				BA0FF2F233AC4708DDDF959F /* libPods-CenterFlowTests.a */,
+				55DC9A9C35DC4FAF4697ADD9 /* libPods-DistributedFlow.a */,
+				C0273ABF47BE7AD794692BA1 /* libPods-DistributedFlowTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		49E6FFD8914783FD091479DC /* Pods */ = {
+		1B421415D244D3C61BD51B42 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A75292300854AF4BFB32B96E /* Pods-CenterFlow.debug.xcconfig */,
-				4AFEF64C7155472DB962BE48 /* Pods-CenterFlow.release.xcconfig */,
-				3ECF6DD851140C95357BED1E /* Pods-CenterFlowTests.debug.xcconfig */,
-				53AAACBC5E8ACD76A2F4BF31 /* Pods-CenterFlowTests.release.xcconfig */,
+				C6278E8946B7034909E84449 /* Pods-DistributedFlow.debug.xcconfig */,
+				33DF3DED88F2337DF6D86950 /* Pods-DistributedFlow.release.xcconfig */,
+				B5C228691155C2C17AD2CF0F /* Pods-DistributedFlowTests.debug.xcconfig */,
+				44E0DD07D49911D83507FC9B /* Pods-DistributedFlowTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -96,24 +96,24 @@
 		CF2A542519E702E500BAFA7F = {
 			isa = PBXGroup;
 			children = (
-				CF2A543019E702E500BAFA7F /* CenterFlow */,
-				CF2A544A19E702E500BAFA7F /* CenterFlowTests */,
+				CF2A543019E702E500BAFA7F /* DistributedFlow */,
+				CF2A544A19E702E500BAFA7F /* DistributedFlowTests */,
 				CF2A542F19E702E500BAFA7F /* Products */,
 				0405686C57B14B068693DE2D /* Frameworks */,
-				49E6FFD8914783FD091479DC /* Pods */,
+				1B421415D244D3C61BD51B42 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		CF2A542F19E702E500BAFA7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF2A542E19E702E500BAFA7F /* CenterFlow.app */,
-				CF2A544719E702E500BAFA7F /* CenterFlowTests.xctest */,
+				CF2A542E19E702E500BAFA7F /* DistributedFlow.app */,
+				CF2A544719E702E500BAFA7F /* DistributedFlowTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF2A543019E702E500BAFA7F /* CenterFlow */ = {
+		CF2A543019E702E500BAFA7F /* DistributedFlow */ = {
 			isa = PBXGroup;
 			children = (
 				CF2A545D19E7084100BAFA7F /* Default-568h@2x.png */,
@@ -127,7 +127,7 @@
 				CF2A545B19E7061300BAFA7F /* KTAwesomeCell.m */,
 				CF0E9DA31AE914A300754C1D /* Launch.storyboard */,
 			);
-			path = CenterFlow;
+			path = DistributedFlow;
 			sourceTree = "<group>";
 		};
 		CF2A543119E702E500BAFA7F /* Supporting Files */ = {
@@ -139,13 +139,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CF2A544A19E702E500BAFA7F /* CenterFlowTests */ = {
+		CF2A544A19E702E500BAFA7F /* DistributedFlowTests */ = {
 			isa = PBXGroup;
 			children = (
-				CF2A544D19E702E500BAFA7F /* CenterFlowTests.m */,
+				CF2A544D19E702E500BAFA7F /* DistributedFlowTests.m */,
 				CF2A544B19E702E500BAFA7F /* Supporting Files */,
 			);
-			path = CenterFlowTests;
+			path = DistributedFlowTests;
 			sourceTree = "<group>";
 		};
 		CF2A544B19E702E500BAFA7F /* Supporting Files */ = {
@@ -159,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF2A542D19E702E500BAFA7F /* CenterFlow */ = {
+		CF2A542D19E702E500BAFA7F /* DistributedFlow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF2A545119E702E500BAFA7F /* Build configuration list for PBXNativeTarget "CenterFlow" */;
+			buildConfigurationList = CF2A545119E702E500BAFA7F /* Build configuration list for PBXNativeTarget "DistributedFlow" */;
 			buildPhases = (
 				6A360096C3484F65AB0C8820 /* Check Pods Manifest.lock */,
 				CF2A542A19E702E500BAFA7F /* Sources */,
@@ -173,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = CenterFlow;
-			productName = CenterFlow;
-			productReference = CF2A542E19E702E500BAFA7F /* CenterFlow.app */;
+			name = DistributedFlow;
+			productName = DistributedFlow;
+			productReference = CF2A542E19E702E500BAFA7F /* DistributedFlow.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CF2A544619E702E500BAFA7F /* CenterFlowTests */ = {
+		CF2A544619E702E500BAFA7F /* DistributedFlowTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF2A545419E702E500BAFA7F /* Build configuration list for PBXNativeTarget "CenterFlowTests" */;
+			buildConfigurationList = CF2A545419E702E500BAFA7F /* Build configuration list for PBXNativeTarget "DistributedFlowTests" */;
 			buildPhases = (
 				FAB80B0BEE844C7CABCBD919 /* Check Pods Manifest.lock */,
 				CF2A544319E702E500BAFA7F /* Sources */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				CF2A544919E702E500BAFA7F /* PBXTargetDependency */,
 			);
-			name = CenterFlowTests;
-			productName = CenterFlowTests;
-			productReference = CF2A544719E702E500BAFA7F /* CenterFlowTests.xctest */;
+			name = DistributedFlowTests;
+			productName = DistributedFlowTests;
+			productReference = CF2A544719E702E500BAFA7F /* DistributedFlowTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF2A542919E702E500BAFA7F /* Build configuration list for PBXProject "CenterFlow" */;
+			buildConfigurationList = CF2A542919E702E500BAFA7F /* Build configuration list for PBXProject "DistributedFlow" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,8 +229,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF2A542D19E702E500BAFA7F /* CenterFlow */,
-				CF2A544619E702E500BAFA7F /* CenterFlowTests */,
+				CF2A542D19E702E500BAFA7F /* DistributedFlow */,
+				CF2A544619E702E500BAFA7F /* DistributedFlowTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CenterFlowTests/Pods-CenterFlowTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistributedFlowTests/Pods-DistributedFlowTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6A360096C3484F65AB0C8820 /* Check Pods Manifest.lock */ = {
@@ -298,7 +298,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CenterFlow/Pods-CenterFlow-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistributedFlow/Pods-DistributedFlow-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FAB80B0BEE844C7CABCBD919 /* Check Pods Manifest.lock */ = {
@@ -334,7 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2A544E19E702E500BAFA7F /* CenterFlowTests.m in Sources */,
+				CF2A544E19E702E500BAFA7F /* DistributedFlowTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +343,7 @@
 /* Begin PBXTargetDependency section */
 		CF2A544919E702E500BAFA7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF2A542D19E702E500BAFA7F /* CenterFlow */;
+			target = CF2A542D19E702E500BAFA7F /* DistributedFlow */;
 			targetProxy = CF2A544819E702E500BAFA7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -427,10 +427,10 @@
 		};
 		CF2A545219E702E500BAFA7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A75292300854AF4BFB32B96E /* Pods-CenterFlow.debug.xcconfig */;
+			baseConfigurationReference = C6278E8946B7034909E84449 /* Pods-DistributedFlow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CenterFlow/Info.plist;
+				INFOPLIST_FILE = DistributedFlow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,10 +439,10 @@
 		};
 		CF2A545319E702E500BAFA7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AFEF64C7155472DB962BE48 /* Pods-CenterFlow.release.xcconfig */;
+			baseConfigurationReference = 33DF3DED88F2337DF6D86950 /* Pods-DistributedFlow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CenterFlow/Info.plist;
+				INFOPLIST_FILE = DistributedFlow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,7 +451,7 @@
 		};
 		CF2A545519E702E500BAFA7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ECF6DD851140C95357BED1E /* Pods-CenterFlowTests.debug.xcconfig */;
+			baseConfigurationReference = B5C228691155C2C17AD2CF0F /* Pods-DistributedFlowTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -462,33 +462,33 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CenterFlowTests/Info.plist;
+				INFOPLIST_FILE = DistributedFlowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CenterFlow.app/CenterFlow";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistributedFlow.app/DistributedFlow";
 			};
 			name = Debug;
 		};
 		CF2A545619E702E500BAFA7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53AAACBC5E8ACD76A2F4BF31 /* Pods-CenterFlowTests.release.xcconfig */;
+			baseConfigurationReference = 44E0DD07D49911D83507FC9B /* Pods-DistributedFlowTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CenterFlowTests/Info.plist;
+				INFOPLIST_FILE = DistributedFlowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CenterFlow.app/CenterFlow";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistributedFlow.app/DistributedFlow";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF2A542919E702E500BAFA7F /* Build configuration list for PBXProject "CenterFlow" */ = {
+		CF2A542919E702E500BAFA7F /* Build configuration list for PBXProject "DistributedFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF2A544F19E702E500BAFA7F /* Debug */,
@@ -497,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF2A545119E702E500BAFA7F /* Build configuration list for PBXNativeTarget "CenterFlow" */ = {
+		CF2A545119E702E500BAFA7F /* Build configuration list for PBXNativeTarget "DistributedFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF2A545219E702E500BAFA7F /* Debug */,
@@ -506,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF2A545419E702E500BAFA7F /* Build configuration list for PBXNativeTarget "CenterFlowTests" */ = {
+		CF2A545419E702E500BAFA7F /* Build configuration list for PBXNativeTarget "DistributedFlowTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF2A545519E702E500BAFA7F /* Debug */,

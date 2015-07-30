@@ -7,10 +7,10 @@
 //
 
 #import "KTMainController.h"
-#import "KTCenterFlowLayout.h"
+#import "ANDistributedFlowLayout.h"
 #import "KTAwesomeCell.h"
 
-#define VARY_HEIGHTS YES
+//#define VARY_HEIGHTS YES
 
 @interface KTMainController ()
 @property (strong) NSArray *states;
@@ -23,13 +23,13 @@
 {
   [super viewDidLoad];
   
-  self.title = @"KTCenterFlowLayout";
+  self.title = @"ANDistributedFlowLayout";
   
   self.collectionView.backgroundColor = [UIColor whiteColor];
   
-  [(KTCenterFlowLayout *)self.collectionViewLayout setMinimumInteritemSpacing:10.f];
-  [(KTCenterFlowLayout *)self.collectionViewLayout setMinimumLineSpacing:10.f];
-  [(KTCenterFlowLayout *)self.collectionViewLayout setSectionInset:UIEdgeInsetsMake(20, 20, 20, 20)];
+  [(ANDistributedFlowLayout *)self.collectionViewLayout setMinimumInteritemSpacing:10.f];
+  [(ANDistributedFlowLayout *)self.collectionViewLayout setMinimumLineSpacing:10.f];
+  [(ANDistributedFlowLayout *)self.collectionViewLayout setSectionInset:UIEdgeInsetsMake(20, 20, 20, 20)];
   
   [self.collectionView registerClass:[KTAwesomeCell class] forCellWithReuseIdentifier:@"AwesomeCell"];
   

@@ -8,7 +8,7 @@
 
 #import "KTAppDelegate.h"
 #import "KTMainController.h"
-#import "KTCenterFlowLayout.h"
+#import "ANDistributedFlowLayout.h"
 
 @interface KTAppDelegate ()
 
@@ -23,7 +23,7 @@
   
   UINavigationController *navController = [UINavigationController new];
   
-  KTMainController *mainController = [[KTMainController alloc] initWithCollectionViewLayout:[KTCenterFlowLayout new]];
+  KTMainController *mainController = [[KTMainController alloc] initWithCollectionViewLayout:[ANDistributedFlowLayout new]];
   navController.viewControllers = @[mainController];
     
   self.window.rootViewController = navController;

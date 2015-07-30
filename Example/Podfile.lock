@@ -1,24 +1,24 @@
 PODS:
-  - KTCategories (0.0.5)
-  - KTCenterFlowLayout (0.0.2)
+  - ANDistributedFlowLayout (1.0.1)
+  - KTCategories (0.0.6)
 
 DEPENDENCIES:
+  - ANDistributedFlowLayout (from `..`)
   - KTCategories (from `https://github.com/keighl/KTCategories.git`)
-  - KTCenterFlowLayout (from `..`)
 
 EXTERNAL SOURCES:
+  ANDistributedFlowLayout:
+    :path: ".."
   KTCategories:
     :git: https://github.com/keighl/KTCategories.git
-  KTCenterFlowLayout:
-    :path: ..
 
 CHECKOUT OPTIONS:
   KTCategories:
-    :commit: 383afb30ccab1649dcf9d60c3cd277d6fc42d5f5
+    :commit: 3d6188b5486520c686129e552eaf06c4d87aa5bb
     :git: https://github.com/keighl/KTCategories.git
 
 SPEC CHECKSUMS:
-  KTCategories: bdb65f6f8d1ed9ff67eec33178d4e619d6de7d9d
-  KTCenterFlowLayout: add70553644c401a6e4c51acf4fdbd5a91a1bae0
+  ANDistributedFlowLayout: c8bb113f56ced250fe62e6fa9c792753edd67bee
+  KTCategories: 7241992b9e90a26ffbba2d96a66deee4332d10c4
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.38.2

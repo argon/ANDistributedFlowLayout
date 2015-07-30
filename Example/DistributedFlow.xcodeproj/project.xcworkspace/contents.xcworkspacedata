@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CenterFlow.xcodeproj">
+      location = "self:/Users/argon/workspace/ANDistributedFlowLayout/Example/DistributedFlow.xcodeproj">
    </FileRef>
 </Workspace>
